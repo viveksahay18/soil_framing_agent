@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Post Distributor</title>
+  <link rel="stylesheet" href="style2.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="#" class="nav-logo">DISTRIBUTOR DETAILS</a>
+      <ul class="nav-links">
+        <li><a href="admindashboard.html">Dashboard</a></li>
+        <li><a href="post Distributor.html">Post Distributor</a></li>
+        <li><a href="alogin.html">Logout</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Main Form Content -->
+  <div class="form-container">
+    <h2>Post Distributor Details</h2>
+    <form action="post_distributor.php" method="POST">
+      Distributor Name<input type="text" name="name" placeholder="Distributor Name" autocomplete="off" required>
+      Location<input type="text" name="location" placeholder="Location" required>
+      Contact Info<input type="text" name="contact" placeholder="Contact Info" required>
+      <button type="submit">Submit Distributor</button>
+    </form>
+  </div>
+
+</body>
+</html>
+
